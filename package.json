@@ -1,19 +1,19 @@
 {
-    "name": "tu-proyecto",
+    "name": "adoption-api",
     "version": "1.0.0",
-    "main": "server.js",
-    "type": "module",
-    "dependencies": {
-        "bcrypt": "^5.1.1",
-        "express": "^4.21.2",
-        "mongoose": "^7.8.6"
-    },
+    "description": "API para adopción de mascotas",
+    "main": "src/server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+      "start": "node src/server.js",
+      "test": "jest"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": ""
-}
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "supertest": "^6.3.3"
+    },
+    "type": "module"
+  }
+  
